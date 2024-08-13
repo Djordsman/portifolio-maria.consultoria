@@ -76,7 +76,18 @@ a {
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 55px;
-    line-height: 82px;
+    font-size: 45px;
     color: black;
+}
+
+#headerImg {
+    margin-left: 42px;
+}
+
+#headerImg img {
+    width: 100%;
+}
+
+.logo {
+    text-align: center;
 }
