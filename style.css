@@ -153,8 +153,39 @@ h1.black {
 #contactForm {
     margin-left: 75px;
     text-align: left;
+    font-family: Poppins;
+    font-size: 16px;
 }
 
 #contact {
     margin-top: 40px;
+}
+
+#contactForm input {
+    background: #ffffff;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #575455;
+    border-bottom: #575455;
+    border: 50;
+    width: 70%;
+    padding: 15px 30px 15px 30px;
+}
+
+#contactForm button {
+    background: #1F7CFF;
+    border-radius: 50px;
+    padding: 15px 30px 15px 30px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    border: 0;
+    text-align: left;
 }
