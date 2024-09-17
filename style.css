@@ -117,7 +117,7 @@ h2.red {
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 24px;
     color: #F75C4E;
 }
@@ -141,9 +141,13 @@ h1.black {
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 30px;
     color: #070f18;
+}
+
+#services-title {
+    color: #000000;
 }
 
 #contactImg img {
@@ -188,4 +192,17 @@ h1.black {
     color: #ffffff;
     border: 0;
     text-align: left;
+}
+
+#portfolioTitle {
+    margin-top: 60px;
+}
+
+.portfolioImg img {
+    width: 100%;
+
+}
+
+.portfolio img {
+    padding: 10px;    
 }
