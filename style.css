@@ -3,6 +3,11 @@ body {
     margin-right: 15%;
 }
 
+body ::selection {
+    color: #06eff7;
+    background: #000000;
+}
+
 .container {
     display: grid;
     grid-auto-flow: column;
@@ -205,4 +210,11 @@ h1.black {
 
 .portfolio img {
     padding: 10px;    
+}
+
+#menu a:hover {
+    color: #2a2eeb;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 0.5s;
 }
